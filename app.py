@@ -12,7 +12,7 @@ from sklearn.svm import SVR
 from sklearn.impute import SimpleImputer
 
 # Load the house price data (replace with your data path)
-df = pd.read_csv(r"C:\Users\vinja\Downloads\FSDS\ML\28_August\Test\done\HPP\House-Price-Predictor\Bengaluru_House_Data.csv")
+df = pd.read_csv(r"Bengaluru_House_Data.csv")
 
 # Clean and preprocess the data
 def preprocess_data(df):
@@ -102,4 +102,5 @@ predict_button = st.button("Predict Price")
 if predict_button:
     predicted_price = predict_price(bathrooms_input, balconies_input, size_input, total_sqft_input)
     st.success(f"Predicted Price in lakhs: ₹{predicted_price:.2f}")
+
 
