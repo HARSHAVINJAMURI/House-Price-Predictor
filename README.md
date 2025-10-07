@@ -97,3 +97,18 @@ Ensure that your CSV file is properly formatted and matches these columns if usi
 ## Dependencies
 
 Listed in `requirements.txt`.
+
+---
+
+## 🧑‍💻 Author
+
+**Developed by:** Harsha Vinjamuri (Data Science & ML Enthusiast)
+**Purpose:** Demonstration of end-to-end credit risk modeling and anomaly detection using modern ML tools.
+
+---
+
+## 📄 License
+
+This project is released under the **MIT License** — free to use and modify for educational or commercial purposes.
+
+---
